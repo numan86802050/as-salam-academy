@@ -3,7 +3,11 @@ export const metadata = {
   description: "Islamic Q&A Platform",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="bn">
       <body>{children}</body>
